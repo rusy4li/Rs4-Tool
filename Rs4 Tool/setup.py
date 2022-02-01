@@ -6,12 +6,6 @@ try:
     import time
 except ImportError:
     print(">>> 'time' modül hatası!")
-try:
-    import colorama
-    from colorama import Fore, Style
-    colorama.init()
-except ImportError:
-    print(">>> 'colorama' modül hatası!")
 
 # -*- coding:utf-8 -*-
 #!/usr/bin/env python
